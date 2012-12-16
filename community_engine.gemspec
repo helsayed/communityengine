@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split("\n") rescue ''
   s.test_files  = `git ls-files -- {test}/*`.split("\n")
 
-  s.add_dependency(%q<rails>, ["~> 3.1.1"])
+  s.add_dependency(%q<rails>, ["~> 3.2.0"])
   s.add_dependency(%q<rack>, [">= 1.3.6"])
   s.add_dependency(%q<authlogic>, [">= 0"])
   s.add_dependency(%q<bcrypt-ruby>, [">= 0"])
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.add_dependency(%q<hpricot>, [">= 0"])
   s.add_dependency(%q<htmlentities>, [">= 0"])
   s.add_dependency(%q<haml>, [">= 0"])
-  s.add_dependency(%q<sass-rails>, ["~> 3.1.5"])
+  s.add_dependency(%q<sass-rails>, ["~> 3.2.3"])
   s.add_dependency(%q<ri_cal>, [">= 0"])
   s.add_dependency(%q<rakismet>, [">= 0"])
   s.add_dependency(%q<aws-s3>, [">= 0"])
